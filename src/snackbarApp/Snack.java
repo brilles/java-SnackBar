@@ -74,7 +74,7 @@ public class Snack
 	}
 
 	// add quantity when given how many to add
-	public void setQuantity(int quantity)
+	public void addQuantity(int quantity)
 	{
 		this.quantity += quantity;
 	}

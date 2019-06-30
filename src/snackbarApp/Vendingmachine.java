@@ -27,13 +27,13 @@ public class Vendingmachine
 	// set name
 	public void setName(String name)
 	{
-		this.name = name
+		this.name = name;
 	} 
 
 	// get name
 	public String getName()
 	{
-		return name
+		return name;
 	}
 
 }
