@@ -90,4 +90,14 @@ public class Snack
 	{
 		return quantity * cost;
 	}
+
+	@Override
+	public String toString()
+	{
+		String rtnStr = "Name: " + name + "\n" +
+						"Vending Machine (id): " + vendingMachineID + "\n" +
+						"Quanitity on hand: " + quantity + "\n" +
+						"Total cost of all the quanitites of this snack on hand: " + getTotalCost(quantity) + "\n";
+		return rtnStr;
+	}
 }

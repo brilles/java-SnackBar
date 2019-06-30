@@ -56,6 +56,15 @@ public class Main
 		c2.buyTotal(s3, 3);
 		System.out.println(c2.getCash());
 		System.out.println(s3.getQuantity());
+
+		// Stretch
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		System.out.println(s4);
+		System.out.println(s5);
+
+		System.out.println(vm1.getName());
 	}
 
 	public static void main(String[] args)
